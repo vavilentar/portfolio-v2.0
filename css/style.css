@@ -79,6 +79,7 @@ html,body {
 }
 
 .my-info {
+	text-align: right;
 	font-size: 25px;
 }
 
