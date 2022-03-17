@@ -153,7 +153,7 @@ html,body {
 
 .portfolio__content h2 {
 	text-align: center;
-	padding-bottom: 50px;
+	padding-bottom: 10px;
 	font-size: 18px;
 	font-weight: 500;
 }
@@ -180,7 +180,48 @@ html,body {
 	color: black;
 	border:#000 1px solid;
 }
+.contacts-btn a:hover{
+color: #000;
+}
 
 .contacts-social {
 	padding-top: 50px;
+}
+
+@media (max-width: 769px) {
+	.box {
+		font-size: 10px;
+	}
+	.about-me__content{
+		flex-direction: column;
+	}
+	.skills__content{
+		flex-direction: column;
+		
+	}
+	.skill-img {
+	}
+}
+
+@media (max-width: 378px) {
+	.about-me__content{
+		padding-top: 0px;
+	}
+	.about-me .name-text {
+		font-size: 30px;
+	}
+}
+
+.contacts-btn a{
+	color:#fff;
+}
+
+.contacts-social a{
+	font-size: 40px;
+	text-decoration: none;
+	color: #000;
+}
+
+.portfolio__content a{
+	color:#000;	
 }
